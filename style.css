@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #002339;
+}
+
+#game-container{
+  padding: 50px;
+}
+
+h1, h2{
+  color: white;
+  margin: 8px;
+}
+
+h1{
+  font-size: 62px;
+  letter-spacing: 2px;
+  font-family: "Poetsen One", sans-serif;
+  padding-bottom: 30px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+.btn {
+  height: 120px;
+  width: 120px;
+  border-radius: 20%;
+  border: 5px solid black;
+  margin: 2rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.flash {
+  background-color: white;
+}
+
+.start-btn{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Poetsen One", sans-serif;
+  letter-spacing: 3px;
+  padding: 10px 30px;
+  margin: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(228, 226, 226, 0.5);
+}
+
+@media (max-width: 786px){
+  #game-container{
+    
+    padding: 130px 25px;
+  }
+  h1{
+    font-size: 52px;
+  }
+  h2{
+    font-size: 26px;
+  }
+  .btn {
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+    border: 3px solid black;
+    margin: 1.5rem;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .start-btn{
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
